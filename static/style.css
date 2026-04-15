@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial;
+
+  background: url("/static/bg2.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 40%;
+  margin: 120px auto;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  width: 70%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px 20px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* NOT SPAM → GREEN */
+.result.ham {
+  background: #c6f6d5;
+  color: #22543d;
+  border: 2px solid #38a169;
+}
+
+/* SPAM → RED */
+.result.spam {
+  background: #fed7d7;
+  color: #742a2a;
+  border: 2px solid #e53e3e;
+}
