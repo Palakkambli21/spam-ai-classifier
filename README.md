@@ -30,3 +30,10 @@ Features
 - model.pkl → trained model
 - vectorizer.pkl → text vectorizer
 
+## Output
+
+### ✅ Not Spam
+<img width="1200" height="540" alt="image" src="https://github.com/user-attachments/assets/e227afa5-95ad-44b4-a473-ee431c492ba5" />
+
+### 🚫 Spam
+<img width="962" height="446" alt="image" src="https://github.com/user-attachments/assets/41a4c5e9-e7aa-43c6-b225-98d7c904c022" />
